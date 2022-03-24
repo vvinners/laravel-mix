@@ -136,7 +136,7 @@ class Chunks {
         return {
             optimization: {
                 ...this.runtimeChunk(),
-                ...this.splitChunks()
+                // ...this.splitChunks()
             }
         };
     }
